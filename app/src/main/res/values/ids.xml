@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="profileimgg" type="id" />
+    <item name="msgadpter" type="id" />
+    <item name="messageInputLayout" type="id" />
+    <item name="textmsg" type="id" />
+    <item name="sendbtnn" type="id" />
+    <item name="recivername" type="id" />
+    <item name="ll1" type="id" />
+</resources>

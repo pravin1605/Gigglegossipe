@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+
+    >
+
+    <!-- Toolbar with the title and logout button -->
+    <LinearLayout
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:background="@color/black"
+        android:layout_alignParentTop="true">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/poppins_bold"
+            android:text="@string/app_name"
+            android:textColor="@color/bottomBarBackground"
+            android:textSize="36sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/logoutimg"
+            android:layout_width="64dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="16dp"
+            android:src="@drawable/logout"
+            />
+    </LinearLayout>
+
+    <!-- Horizontal line below the toolbar -->
+    <View
+        android:id="@+id/line1"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@id/toolbar"
+        android:layout_marginTop="8dp"
+        android:background="@color/lineColor" />
+
+    <!-- RecyclerView for chat items -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/mainUserRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="550dp"
+        android:layout_below="@id/line1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Horizontal line below the RecyclerView -->
+    <View
+        android:id="@+id/line2"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@id/mainUserRecyclerView"
+        android:layout_marginTop="8dp"
+        android:background="@color/lineColor" />
+
+    <!-- Bottom horizontal layout for icons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:background="@color/bottomBarBackground"
+        android:elevation="8dp">
+
+        <ImageView
+            android:id="@+id/camBut"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginEnd="24dp"
+            android:src="@drawable/camera"
+            app:tint="@color/bottomBarIcon" />
+
+        <ImageView
+            android:id="@+id/call"
+            android:layout_width="69dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="24dp"
+            android:src="@drawable/callimg"
+            app:tint="@color/iconColor" />
+
+        <ImageView
+            android:id="@+id/settingBut"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:src="@drawable/user"
+            app:tint="@color/bottomBarIcon" />
+    </LinearLayout>
+
+</RelativeLayout>

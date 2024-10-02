@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "6432567509",
+    "project_id": "gigglegossip-cf393",
+    "storage_bucket": "gigglegossip-cf393.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:6432567509:android:96171693ac3b94c922725c",
+        "android_client_info": {
+          "package_name": "com.example.gigglegossip"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMfAz1W0CW8Zvc3Z1c49zEY8WnErcZgVw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

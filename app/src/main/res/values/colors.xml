@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+        <color name="toolbarBackground">#FFBB86FC</color>
+        <color name="toolbarText">#FFFFFFFF</color>
+        <color name="toolbarIcon">#FFFFFFFF</color>
+        <color name="lineColor">#FF6200EE</color>
+        <color name="bottomBarBackground">#FF3700B3</color>
+        <color name="bottomBarIcon">#FFFFFFFF</color>
+
+
+        <color name="background">#ECE5DD</color>
+        <color name="headerBackground">#075E54</color>
+        <color name="inputBackground">#FFFFFF</color>
+        <color name="textPrimary">#000000</color>
+        <color name="textSecondary">#757575</color>
+        <color name="iconColor">#FFFFFF</color>
+
+
+
+
+
+
+
+
+
+
+</resources>

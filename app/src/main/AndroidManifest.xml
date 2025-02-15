@@ -16,15 +16,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.GiggleGossip"
         tools:targetApi="31">
-        <activity
-            android:name=".StatusFragment"
-            android:exported="false" />
-        <activity
-            android:name=".ChatsFragment"
-            android:exported="false" />
-        <activity
-            android:name=".CallsFragment"
-            android:exported="false" />
+
         <activity
             android:name=".profile"
             android:exported="false" />

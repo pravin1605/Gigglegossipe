@@ -2,7 +2,7 @@
 
 Gigglegossipe - Chat App 
 
-Gigglegossipe is a modern chat application built with Flutter and Firebase, offering real-time messaging, secure authentication, media sharing, and an intuitive UI.  
+Gigglegossipe is a modern chat application built with java(android studio) and Firebase, offering real-time messaging, secure authentication, media sharing, and an intuitive UI.  
 
  🚀 Features
 ✔️ Real-time Messaging (Firebase Firestore)  

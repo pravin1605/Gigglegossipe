@@ -11,10 +11,7 @@ Gigglegossipe is a modern chat application built with Flutter and Firebase, offe
 ✔️ Push Notifications (FCM)  
 ✔️ Dark Mode Support  
 
- 🛠️ Tech Stack
-- Frontend: Flutter (Dart)  
-- Backend: Firebase Firestore & Authentication  
-- Storage: Firebase Storage  
+ 
 
 📥 Installation
 ```sh
